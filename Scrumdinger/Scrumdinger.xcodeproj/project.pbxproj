@@ -83,11 +83,11 @@
 				42901336285106330079FC85 /* ScrumdingerApp.swift */,
 				422116E628522BC500604AC5 /* CardView.swift */,
 				422116EC2853618B00604AC5 /* DetailView.swift */,
+				428569D8285DF7B9002E4CFA /* MeetingFooterView.swift */,
 				42901338285106330079FC85 /* MeetingView.swift */,
 				428569CE285C098C002E4CFA /* MeetingHeaderView.swift */,
 				4290133A285106340079FC85 /* Assets.xcassets */,
 				4290133C285106340079FC85 /* Preview Content */,
-				428569D8285DF7B9002E4CFA /* MeetingFooterView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
