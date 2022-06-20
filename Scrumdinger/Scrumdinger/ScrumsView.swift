@@ -23,7 +23,9 @@ struct ScrumsView: View {
         }
         .navigationTitle("Daily Scrums")
         .toolbar {
-            Button(action: {}) {
+            Button(action: {
+                isPresentingNewScrumView = true
+            }) {
                 Image(systemName: "plus")
             }
             .accessibilityLabel("New Scrum")
@@ -31,6 +33,23 @@ struct ScrumsView: View {
         .sheet(isPresented: $isPresentingNewScrumView){
             NavigationView{
                 DetailEditView(data: $newScrumData)
+                    .toolbar{
+                        ToolbarItem(placement: .cancellationAction){
+                            Button("Dismiss"){
+                                isPresentingNewScrumView = false
+                                newScrumData = DailyScrum.Data()
+                            }
+                        }
+                        
+                        ToolbarItem(placement: .confirmationAction){
+                            Button("Add"){
+                                let newScrum = DailyScrum(data: newScrumData)
+                                scrums.append(newScrum)
+                                isPresentingNewScrumView = false
+                                newScrumData = DailyScrum.Data()
+                            }
+                        }
+                    }
             }
         }
     }
