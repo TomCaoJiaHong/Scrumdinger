@@ -17,7 +17,6 @@
 		428569C92858C425002E4CFA /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569C82858C425002E4CFA /* ThemePicker.swift */; };
 		428569CB285C0875002E4CFA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569CA285C0875002E4CFA /* History.swift */; };
 		428569CF285C098C002E4CFA /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569CE285C098C002E4CFA /* MeetingHeaderView.swift */; };
-		428569D5285C120B002E4CFA /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569D4285C120B002E4CFA /* Color.swift */; };
 		428569D7285D4439002E4CFA /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569D6285D4439002E4CFA /* ScrumTimer.swift */; };
 		428569D9285DF7B9002E4CFA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569D8285DF7B9002E4CFA /* MeetingFooterView.swift */; };
 		428569DB285FFA13002E4CFA /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428569DA285FFA13002E4CFA /* AVPlayer+Ding.swift */; };
@@ -39,7 +38,6 @@
 		428569C82858C425002E4CFA /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		428569CA285C0875002E4CFA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		428569CE285C098C002E4CFA /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
-		428569D4285C120B002E4CFA /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		428569D6285D4439002E4CFA /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
 		428569D8285DF7B9002E4CFA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		428569DA285FFA13002E4CFA /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
@@ -84,8 +82,12 @@
 				429013442851347E0079FC85 /* Models */,
 				42901336285106330079FC85 /* ScrumdingerApp.swift */,
 				422116EA2852815400604AC5 /* ScrumsView.swift */,
+				428569C62858C0C8002E4CFA /* ThemeView.swift */,
+				428569C82858C425002E4CFA /* ThemePicker.swift */,
 				422116E628522BC500604AC5 /* CardView.swift */,
 				422116EC2853618B00604AC5 /* DetailView.swift */,
+				422116EE2854B8F700604AC5 /* DetailEditView.swift */,
+				422116E82852363100604AC5 /* TrailingIconLabelStyle.swift */,
 				428569D8285DF7B9002E4CFA /* MeetingFooterView.swift */,
 				42901338285106330079FC85 /* MeetingView.swift */,
 				428569CE285C098C002E4CFA /* MeetingHeaderView.swift */,
@@ -106,14 +108,9 @@
 		429013442851347E0079FC85 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				422116E82852363100604AC5 /* TrailingIconLabelStyle.swift */,
 				42901345285135880079FC85 /* Theme.swift */,
 				422116E4285228CE00604AC5 /* DailyScrum.swift */,
-				422116EE2854B8F700604AC5 /* DetailEditView.swift */,
-				428569C62858C0C8002E4CFA /* ThemeView.swift */,
-				428569C82858C425002E4CFA /* ThemePicker.swift */,
 				428569CA285C0875002E4CFA /* History.swift */,
-				428569D4285C120B002E4CFA /* Color.swift */,
 				428569D6285D4439002E4CFA /* ScrumTimer.swift */,
 				428569DA285FFA13002E4CFA /* AVPlayer+Ding.swift */,
 			);
@@ -199,7 +196,6 @@
 				428569D9285DF7B9002E4CFA /* MeetingFooterView.swift in Sources */,
 				42901346285135880079FC85 /* Theme.swift in Sources */,
 				428569CF285C098C002E4CFA /* MeetingHeaderView.swift in Sources */,
-				428569D5285C120B002E4CFA /* Color.swift in Sources */,
 				428569CB285C0875002E4CFA /* History.swift in Sources */,
 				428569D7285D4439002E4CFA /* ScrumTimer.swift in Sources */,
 				422116EB2852815400604AC5 /* ScrumsView.swift in Sources */,
