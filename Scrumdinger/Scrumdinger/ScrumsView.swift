@@ -45,7 +45,6 @@ struct ScrumsView: View {
                             Button("Add"){
                                 let newScrum = DailyScrum(data: newScrumData)
                                 scrums.append(newScrum)
-                                
                                 isPresentingNewScrumView = false
                                 newScrumData = DailyScrum.Data()
                             }
