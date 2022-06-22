@@ -15,4 +15,20 @@ class ScrumStore: ObservableObject{
         try FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: false)
             .appendingPathComponent("scrums.data")
     }
+    
+    static func load(completion: @escaping (Result<[DailyScrum], Error>)->Void){
+        DispatchQueue.global(qos: .background).async {
+            do{
+                let fileURL = try fileURL()
+                guard let file = try? FileHandle(forReadingFrom: fileURL) else {
+                    DispatchQueue.main.async {
+                        completion(.success([]))
+                    }
+                    return
+                }
+            }catch{
+                
+            }
+        }
+    }
 }
