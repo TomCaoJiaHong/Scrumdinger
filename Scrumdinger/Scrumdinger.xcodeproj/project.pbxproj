@@ -29,6 +29,7 @@
 		42901346285135880079FC85 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42901345285135880079FC85 /* Theme.swift */; };
 		42D7DE68286B99720060AD06 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE67286B99720060AD06 /* ErrorWrapper.swift */; };
 		42D7DE6A286B9A970060AD06 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE69286B9A970060AD06 /* ErrorView.swift */; };
+		42D7DE6C286D0BF20060AD06 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		42901345285135880079FC85 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		42D7DE67286B99720060AD06 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		42D7DE69286B9A970060AD06 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				428569CE285C098C002E4CFA /* MeetingHeaderView.swift */,
 				4290133A285106340079FC85 /* Assets.xcassets */,
 				4290133C285106340079FC85 /* Preview Content */,
+				42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				428569E1286365F3002E4CFA /* ScrumStore.swift in Sources */,
 				428569C92858C425002E4CFA /* ThemePicker.swift in Sources */,
+				42D7DE6C286D0BF20060AD06 /* MeetingTimerView.swift in Sources */,
 				42D7DE6A286B9A970060AD06 /* ErrorView.swift in Sources */,
 				422116E5285228CE00604AC5 /* DailyScrum.swift in Sources */,
 				422116ED2853618B00604AC5 /* DetailView.swift in Sources */,
