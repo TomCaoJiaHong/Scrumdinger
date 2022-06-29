@@ -30,6 +30,7 @@
 		42D7DE68286B99720060AD06 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE67286B99720060AD06 /* ErrorWrapper.swift */; };
 		42D7DE6A286B9A970060AD06 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE69286B9A970060AD06 /* ErrorView.swift */; };
 		42D7DE6C286D0BF20060AD06 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */; };
+		42D7DE6E286D0E320060AD06 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D7DE6D286D0E320060AD06 /* SpeakerArc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		42D7DE67286B99720060AD06 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		42D7DE69286B9A970060AD06 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		42D7DE6D286D0E320060AD06 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				4290133A285106340079FC85 /* Assets.xcassets */,
 				4290133C285106340079FC85 /* Preview Content */,
 				42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */,
+				42D7DE6D286D0E320060AD06 /* SpeakerArc.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				428569D9285DF7B9002E4CFA /* MeetingFooterView.swift in Sources */,
 				42901346285135880079FC85 /* Theme.swift in Sources */,
 				428569CF285C098C002E4CFA /* MeetingHeaderView.swift in Sources */,
+				42D7DE6E286D0E320060AD06 /* SpeakerArc.swift in Sources */,
 				428569CB285C0875002E4CFA /* History.swift in Sources */,
 				428569D7285D4439002E4CFA /* ScrumTimer.swift in Sources */,
 				42D7DE68286B99720060AD06 /* ErrorWrapper.swift in Sources */,
