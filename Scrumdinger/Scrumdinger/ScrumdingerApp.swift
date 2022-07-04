@@ -26,6 +26,7 @@ struct ScrumdingerApp: App {
                 }
             }
             
+            
             .onAppear{
                 ScrumStore.load{
                     result in
