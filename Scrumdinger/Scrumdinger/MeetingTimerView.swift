@@ -32,6 +32,8 @@ struct MeetingTimerView: View {
                     speaker in
                     if speaker.isCompleted, let index = speakers.firstIndex(where: {$0.id == speaker.id}){
                         SpeakerArc(speakerIndex: index, totalSpeakers: speakers.count)
+                            .rotation(Angle(degrees: -90))
+                            .stroke(theme.mainColor, lineWidth: 12)
                     }
                 }
             }
