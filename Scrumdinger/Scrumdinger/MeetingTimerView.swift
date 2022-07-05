@@ -27,6 +27,15 @@ struct MeetingTimerView: View {
                 .accessibilityElement(children: .combine)
                 .foregroundStyle(theme.accentColor)
             }
+            .overlay{
+                ForEach(speakers){
+                    speaker in
+                    if speaker.isCompleted, let index = speakers.firstIndex(where: {$0.id == speaker.id}){
+                        SpeakerArc(speakerIndex: index, totalSpeakers: speakers.count)
+                    }
+                }
+            }
+            .padding(.horizontal)
     }
 }
 
@@ -37,5 +46,6 @@ struct MeetingTimerView_Previews: PreviewProvider {
     
     static var previews: some View {
         MeetingTimerView(speakers: speakers, theme: .yellow)
+            .previewInterfaceOrientation(.portraitUpsideDown)
     }
 }
