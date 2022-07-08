@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4208856F28766B5200C8FA3B /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4208856E28766B5200C8FA3B /* SpeechRecognizer.swift */; };
+		420885712877C67500C8FA3B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420885702877C67500C8FA3B /* HistoryView.swift */; };
 		422116E5285228CE00604AC5 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422116E4285228CE00604AC5 /* DailyScrum.swift */; };
 		422116E728522BC500604AC5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422116E628522BC500604AC5 /* CardView.swift */; };
 		422116E92852363100604AC5 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 422116E82852363100604AC5 /* TrailingIconLabelStyle.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		4208856E28766B5200C8FA3B /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		420885702877C67500C8FA3B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		422116E4285228CE00604AC5 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		422116E628522BC500604AC5 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		422116E82852363100604AC5 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				4290133C285106340079FC85 /* Preview Content */,
 				42D7DE6B286D0BF20060AD06 /* MeetingTimerView.swift */,
 				42D7DE6D286D0E320060AD06 /* SpeakerArc.swift */,
+				420885702877C67500C8FA3B /* HistoryView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				42D7DE6A286B9A970060AD06 /* ErrorView.swift in Sources */,
 				422116E5285228CE00604AC5 /* DailyScrum.swift in Sources */,
 				422116ED2853618B00604AC5 /* DetailView.swift in Sources */,
+				420885712877C67500C8FA3B /* HistoryView.swift in Sources */,
 				422116EF2854B8F700604AC5 /* DetailEditView.swift in Sources */,
 				422116E92852363100604AC5 /* TrailingIconLabelStyle.swift in Sources */,
 				428569DB285FFA13002E4CFA /* AVPlayer+Ding.swift in Sources */,
